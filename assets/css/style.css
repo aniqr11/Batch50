@@ -1,0 +1,119 @@
+.img-nav img{
+    height: 40px;
+    padding: 10px 0px;
+    margin-right: 50px;
+    margin-left: 80px;
+}
+
+body{margin: 0;
+background-color: rgb(203, 209, 214);}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(241, 240, 240);
+    align-items: center;
+}
+.nav-left {display: flex;
+    justify-content: center;
+
+}
+.nav-left ul li {
+    display: inline-block;
+    margin-top: 8px;
+    
+}
+
+.nav-left ul li a{
+    text-decoration: none;
+    margin-right: 50px;
+    font-weight: bold;
+    color: black;
+    
+}
+
+.nav-left a:hover{
+    color: orangered;
+
+}
+
+.nav-right{
+    margin-right: 50px;
+}
+
+.nav-right .me a {
+    text-decoration: none;
+    background-color: rgb(7, 7, 7);
+    padding: 8px;
+    color:white;
+    border-radius: 10px;
+    
+}
+
+/* nav-end */
+
+.container {
+    width: 80%;
+    background-color: white;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    
+}
+/* card kanan */
+.container .img img {
+    display: flex; 
+    width: 200px;
+    margin-bottom: -7px;
+}
+
+.container .img{
+    padding: 30px 50px;
+   width: 200px;
+  
+  text-align: center;
+}
+/* teks kiri */
+.container .teks {
+
+    padding: 20px 50px;
+}
+
+.container .teks p {
+    text-align: justify;
+    margin-bottom: 35px;
+    
+}
+
+/* contact&CV */
+.container .teks .me ul li:nth-child(1) a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(14, 13, 13);
+    padding: 7px;
+    border-radius: 15px;
+    text-align: center;
+    margin-right: 20px;
+    list-style-type: none;
+    
+}
+
+.container .teks ul li{
+    display: inline-block;
+}
+
+.container .teks .me ul li:nth-child(2) img{
+    margin-left: 15px;
+   width: 50px;
+   height: 30px;
+}
+
+/* sosmed */
+.container .sosmed ul li a img{
+    width: 50px; height: 50px;border-radius: 100%;
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+    
+    
