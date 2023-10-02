@@ -1,0 +1,146 @@
+.img-nav img{
+    height: 40px;
+    padding: 10px 0px;
+    margin-right: 50px;
+    margin-left: 80px;
+}
+
+body{margin: 0;
+background-color: rgb(203, 209, 214);}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(241, 240, 240);
+    align-items: center;
+}
+.nav-left {display: flex;
+    justify-content: center;
+
+}
+.nav-left ul li {
+    display: inline-block;
+    margin-top: 8px;
+    
+}
+
+.nav-left ul li a{
+    text-decoration: none;
+    margin-right: 50px;
+    font-weight: bold;
+    color: black;
+    
+}
+
+.nav-left a:hover{
+    color: orangered;
+
+}
+
+.nav-right{
+    margin-right: 50px;
+}
+
+.nav-right .me a {
+    text-decoration: none;
+    background-color: rgb(7, 7, 7);
+    padding: 8px;
+    color:white;
+    border-radius: 10px;
+    
+}
+
+/* nav-end */
+
+
+/* form */
+.formP {
+    width:500px ;
+    margin: auto;
+
+}
+
+form label{margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,textarea{
+width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+textarea{
+    resize: none;
+    height: 100px;
+}
+      /* date */
+.date  {width: 100%;
+display: flex;
+justify-content: space-between;}
+
+.startdating{
+    width: 200px;
+}
+
+.enddating{
+    width: 200px;
+}
+
+       /* tech */
+
+.tech input ,label{ 
+    all: revert;
+    margin-bottom: 20px;
+   }
+
+   /* up image */
+
+
+/* submit */
+.btn-submit{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-submit input {
+   background-color: rgb(10, 10, 10);
+    width: 100px;
+    color: white;
+   border-radius: 20px;
+}
+
+
+
+
+/* form end */
+
+/* my project */
+.myproject{
+    padding: 50px;
+    background-color: rgb(227, 231, 235);
+    
+    
+}
+/* card project */
+.newproject{
+    width: 300px;
+    display: block;
+    padding: 5px;
+    border: solid 1px;
+    background-color: white;
+    
+}
+
+.myproject .newproject img{
+    width:100%;
+    height: 300px;
+    border-radius: 10px;
+}
+
+
+.tech-i i{
+    letter-spacing: 15px;
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My project</title>
+    <link rel="stylesheet" href="assets/css/mp.css">
+    <link rel="stylesheet" href="assets/font-awesome/css/all.min.css">
+</head>
+<body>
+
+    <nav>
+        <!-- nav-left -->
+    <div class="nav-left">
+        <div class="img-nav">
+        <a href="https://dumbways.id/" target="_blank"><img src="assets/img/dw.png" alt="logo"></a>
+    </div>
+    
+<div>
+    <ul>
+        <li><a href="index-home.html">Home</a></li>
+        <li><a href="my-project.html">My project</a></li>
+    </ul>
+</div>
+
+    </div>
+        <!-- nav right -->
+        <div class="nav-right">
+
+        <div class="me"><a href="Contact-me.html">Contact Me</a></div>
+
+    </div>
+
+</nav>
+
+<!-- nav-end -->
+
+
+<!-- form -->
+<div class="formP">
+    <form onsubmit="submitData(event)">
+        <h1 style="text-align: center;">ADD MY PROJECT</h1>
+
+        <div>
+            <label for="projectname">Project Name</label>
+            <input id="projectname" />
+        </div>
+
+        <div class="date">
+            <div class="startdating">
+                <label for="startdate">Start Date</label>
+                <input id="startdate" type="date">
+            </div>
+
+            <div class="enddating">
+            <label for="enddate">End Date</label>
+            <input id="enddate" type="date">
+            </div>
+
+        </div>
+
+          <div>
+            <label for="Decription">Decription</label>
+            <textarea id="Description"></textarea>
+          </div>
+
+          <div class="tech">
+            <input type="checkbox" id="JavaScript">
+            <label for="JavaScript">JavaScript</label>
+            
+            <input type="checkbox" id="Golang">
+            <label for="Golang">Golang</label>
+            
+            <input type="checkbox" id="ReactJS">
+            <label for="ReactJS">React JS</label>
+
+            <input type="checkbox" id="NodeJs">
+            <label for="NodeJs">Node Js</label>
+        </div>
+
+        <div class="upload-image">
+            <label for="uploadimage">Upload image</label>
+            <input id="upimage" type="file">
+         </div>
+
+         <div class="btn-submit">
+            <button>Submit</button>
+         </div>
+           
+    
+    </form>
+</div>
+<hr>
+
+<!-- card content -->
+<div class="myproject" >
+    <h1 style="text-align: center;">My Project</h1>
+
+    <div class="newproject" id="newproject">
+        <img src="assets/img/dw.png" alt="contoh">
+        <h4 style="margin-bottom: -1px;">DumbWays Mobile App - 2023</h4>
+        durasi : 3 bulan
+        <p>App that used for dumbways student,it was deployed and can download on play store Happy download</p>
+
+            <div class="tech-i">
+                <i class="fa-brands fa-golang fa-2x"></i>
+                <i class="fa-brands fa-js fa-2x"></i>
+                <i class="fa-brands fa-node-js fa-2x"></i>
+                <i class="fa-brands fa-react fa-2x"></i>
+            </div>
+    </div>
+          
+</div>    
+
+<script src="assets/js/my-project.js"></script>
+</body>
+</html>
