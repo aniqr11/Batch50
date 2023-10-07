@@ -1,0 +1,171 @@
+.img-nav img{
+    height: 40px;
+    padding: 10px 0px;
+    margin-right: 50px;
+    margin-left: 80px;
+}
+
+body{margin: 0;
+    background-color: rgb(255, 255, 255);
+    background-image: url(../img/darkness.webp);
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+}
+.nav-left {display: flex;
+    justify-content: center;
+
+}
+.nav-left ul li {
+    display: inline-block;
+    margin-top: 8px;
+    
+}
+
+.nav-left ul li a{
+    text-decoration: none;
+    margin-right: 50px;
+    font-weight: bold;
+    color: black;
+    
+}
+
+.nav-left a:hover{
+    color: orangered;
+
+}
+
+.nav-right{
+    margin-right: 50px;
+}
+
+.nav-right a {
+    text-decoration: none;
+    background-color: rgb(7, 7, 7);
+    padding: 8px;
+    color:white;
+    border-radius: 10px;
+}
+
+.nav-right a:hover {
+    color: white;
+    background-color: orangered;
+}
+
+
+/* nav-end */
+
+.main{
+    margin: auto;
+    width: 400px;
+}
+
+.main h1{
+    text-align: center;
+}
+
+.main input{
+    width: 100%;
+    margin-bottom: 25px;
+   padding: 5px;
+   border-radius: 5px;
+   margin-top: 5px;
+   height: 25px;
+   
+}
+.main select{
+    width: 100%;
+    place-items: none;
+    margin-bottom: 25px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid;
+    
+}
+
+.main textarea{
+    resize: none;
+    width: 100%;
+    height: 80px;
+    margin-bottom: 20px;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.main label{
+    margin-left: 8px;
+    line-height: bold;
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(243, 85, 11);
+}
+
+.main .button button  {
+background-color: rgb(241, 234, 234);
+color:  rgb(243, 85, 11);
+padding: 5px;
+margin-top: 10px;
+border-radius: 5px;
+width: 80px;
+cursor: pointer;
+} 
+ 
+.main .button  {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+
+/* nav-hamburger */
+
+#barsmenu{
+    display: none;
+}
+
+#humberger-nav-container{
+    display: none;
+}
+
+.humberger-nav-container a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(241, 240, 240);
+    background-color: gray;
+    border: solid white 1px;
+    padding: 10px;
+}
+
+.humberger-nav-container .cm-active{
+    background-color: orangered;
+}
+
+@media only screen and (max-width:670px){
+   nav .bars11{
+        display: none;
+    }
+
+    #barsmenu{
+        display: block;
+    }
+
+    .container .sosmed ul{
+        margin-left: 0px;
+    }
+
+    .humberger-button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        color: #000000;
+        font-size: 30px;
+      }
+    }

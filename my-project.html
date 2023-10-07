@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <meta charset="UTF-8"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My project</title>
+    <link rel="stylesheet" href="assets/css/mp.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+
+    <nav>
+        <!-- nav-left -->
+    <div class="nav-left">
+        <div class="img-nav">
+        <a href="https://dumbways.id/" target="_blank"><img src="assets/img/dw.png" alt="logo"></a>
+    </div>
+    
+<div>
+    <ul>
+        <li><a class="bars11" href="Card-home.html">Home</a></li>
+        <li><a class="bars11" href="my-project.html">My project</a></li>
+    </ul>
+</div>
+
+    </div>
+        <!-- nav right -->
+        <div class="nav-right">
+
+        <div><a class="bars11" href="Contact-me.html">Contact Me</a></div>
+    </div>
+
+    <div class="nav-right" id="barsmenu">
+        <button class="humberger-button" onclick="openhumberger()">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+
+</nav>
+
+<div class="humberger-nav-container" id="humberger-nav-container">
+    <a href="Card-home.html">Home</a>
+    <a href="my-project.html" class="mp-active">My project</a>
+    <a href="Contact-me.html">Contact Me</a>
+  </div>
+
+<!-- nav-end -->
+
+
+<!-- form -->
+<div class="formP">
+    <form onsubmit="submitData(event)">
+        <h1 style="text-align: center;">ADD MY PROJECT</h1>
+
+        <div>
+            <label for="projectname">Project Name</label>
+            <input id="projectname" />
+        </div>
+
+        <div class="date">
+            <div class="startdating">
+                <label for="startdate">Start Date</label>
+                <input id="startdate" type="date">
+            </div>
+
+            <div class="enddating">
+            <label for="enddate">End Date</label>
+            <input id="enddate" type="date">
+            </div>
+
+        </div>
+
+          <div>
+            <label for="Decription">Decription</label>
+            <textarea id="Description"></textarea>
+          </div>
+
+          <div class="tech">
+            <label for="">Technoligies :</label><br><br>
+
+            <input type="checkbox" id="JavaScript" >
+            <label for="JavaScript">JavaScript</label>
+            
+            <input type="checkbox" id="Golang" >
+            <label for="Golang">Golang</label>
+            
+            <input type="checkbox" id="ReactJS" >
+            <label for="ReactJS">React JS</label>
+
+            <input type="checkbox" id="NodeJs">
+            <label for="NodeJs">Node Js</label>
+        </div>
+<br>
+
+        <label for="upimage">Upload image :</label>
+        <div class="upload-image">
+            
+            <label for="upimage">
+                <p>Attach File</p>
+                <img src="./assets/img/upf.png" alt="file" /></label>
+                
+                <input id="upimage" type="file" hidden>
+         </div>
+
+         <div class="btn-submit">
+            <button>Submit</button>
+         </div>
+           
+    
+    </form>
+</div>
+<hr>
+
+<!-- card content -->
+<div class="myproject" >
+    <h1 style="text-align: center;">My Project</h1>
+
+    <div id="box-project" class="box">
+
+     <div class="newproject" id="newproject">
+        <img src="./assets/img/aaaa.jpg" alt="contoh">
+        <h4 style="margin-bottom: -1px;">DumbWays Mobile App - 2023</h4>
+        durasi : 3 bulan
+        <p>App that used for dumbways student,it was deployed and can download on play store Happy download</p>
+
+            <div class="tech-i">
+                <i id="Gol" class="fa-brands fa-golang fa-2x"></i>
+                <i id="Jav" class="fa-brands fa-js fa-2x"></i>
+                <i id="Nod" class="fa-brands fa-node-js fa-2x"></i>
+                <i id="Rea" class="fa-brands fa-react fa-2x"></i>
+            </div> 
+        </div>
+    </div>   
+</div> 
+
+<script src="assets/js/my-project.js"></script>
+</body>
+</html>

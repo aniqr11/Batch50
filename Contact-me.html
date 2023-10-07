@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="assets/css/style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+
+    <nav>
+        <!-- nav-left -->
+    <div class="nav-left">
+        <div class="img-nav">
+        <a href="https://dumbways.id/" target="_blank"><img src="assets/img/dw.png" alt="logo"></a>
+    </div>
+    
+<div>
+    <ul>
+        <li><a class="bars11" href="Card-home.html">Home</a></li>
+        <li><a class="bars11" href="my-project.html">My project</a></li>
+    </ul>
+</div>
+
+    </div>
+        <!-- nav right -->
+        <div class="nav-right">
+
+        <div><a class="bars11" href="Contact-me.html">Contact Me</a></div>
+    </div>
+
+    <div class="nav-right" id="barsmenu">
+        <button class="humberger-button" onclick="openhumberger()">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+
+</nav>
+
+<div class="humberger-nav-container" id="humberger-nav-container">
+    <a href="Card-home.html">Home</a>
+    <a href="my-project.html">My project</a>
+    <a href="Contact-me.html" class="cm-active">Contact Me</a>
+  </div>
+
+<!-- nav-end -->
+
+
+<div class="main">
+<h1>GET IN TOUCH</h1>
+
+<!-- form -->
+<form >
+    <label for="name">Name :</label>
+    <input type="text" name="name" id="name" placeholder="Please insert your name">
+
+    <label for="email">Email :</label>
+    <input type="email" name="email" id="email" placeholder="Your Email">
+
+    <label for="tlp">Phone number :</label>
+    <input type="text" name="tlp" id="tlp" placeholder="Your Phone Number">
+
+    <label for="gender">Gender :</label>
+<select id="gender" name="gender">
+    
+    <option value="pria">Man</option>
+    <option value="Wanita">Women</option>
+    <option value="Hybrid">Hybrid</option>
+  
+</select>
+
+<label for="TA">Your Messages</label>
+<textarea placeholder="Your messages for me :)" name="TA" id="TA"></textarea>
+
+
+<div class="button">
+    <button type="button" onclick="getData()">Submit</button>
+</div>
+
+</form>
+
+</div>
+
+<script src="assets/js/script.js"></script>
+</body>
+
+</html>
